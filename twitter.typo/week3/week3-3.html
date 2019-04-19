@@ -17,17 +17,32 @@
 
 .text{
 	font-family:arial;
-	
+	display:block;
+		background-color:black;
 	font-size:60px;
-	position:fixed;
-	top:250px;
-	margin-left: 300px;  
-	color:black;
+	
+	color:white;
 	text-align:center;
+	animation-name:spinUG;
+  animation-duration:2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 	
 	}
 
-	
+	@keyframes spinUG {
+  
+  from {
+   height:50px;
+  }
+  
+  to {
+    height:400px;
+  }
+  
+  
+}
 	.date{
 		font-family:arial;
 		font-size:30px;
@@ -36,33 +51,30 @@
 	margin-left: 500px;  
 	}
 	.text1{
+		
 	font-family:arial;
 	width: 700px;
 	font-size:30px;
 	position:fixed;
 	top:100px;
 	margin-left: 300px;  
-	color:black;	
+	color:gray;	
 	text-align:center;
 	}
 
 	.t0{
-	color:red;
+	
 	font-family:arial;
 	
 	font-size:60px;
-	position:fixed;
-	top:320px;
-	margin-left: 300px;  
+	
+	
+	margin-left: 700px;  
 	
 	text-align:center;
 
 }
- 	.t0:hover {
- 		color:black;
- 		font-size:90px;
- 		transition:1s;
- 	}
+ 	
 
 
 }
