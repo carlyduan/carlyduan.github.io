@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week4-3</title>
+</head>
+<style type="text/css">
+	.text{
+		position:relative;
+		font-size:30px;
+		width:300px;
+		height:300px;
+		font-family:arial;
+		font-weight:900;
+		color:white;
+		top: 20px;
+		left:20px;
+	}
+	.box{
+		display:block;
+		margin-top:300px;
+		width:340px;
+		height:300px;
+		background-color:red;
+		animation-name:cG;
+  		animation-duration:600ms;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+  		animation-direction: alternate;
+
+  		
+	}
+	@keyframes cG{
+		from {
+   		background-color:red;
+   		margin-left:400px;
+ 	 }
+  
+  to {
+ 		background-color:orange;
+ 		 margin-left:550px;
+  }
+
+   		
+	}
+	@keyframes pG{
+		0% {left:-400px; }
+	    100%{left:1600px; }
+	}
+	.date{
+		font-size:30px;
+		width:300px;
+		height:300px;
+		font-family:arial;
+		font-weight:900;
+		text-align:center;
+		color:white;
+
+		margin:auto;
+	}
+</style>
+<body bgcolor="black">
+<div class="box">
+	<div class="text">
+Report: Employees Most Innovative When Brainstorming Dramatic Quitting Scenarios.</div>
+</div>
+<br>
+<div class="date">5:15AM - April 1, 2019</div>
+
+</body>
+</html>
