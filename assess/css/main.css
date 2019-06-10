@@ -94,7 +94,7 @@ font-weight:900;
 
 
 	.forder{
-		display:absolute;
+		position:absolute;
 	}
 	
 	.f1{
@@ -394,4 +394,83 @@ color: #364872;
 
 } 
 
+.line{
+	display:block;
+	max-height:3px;
+	 min-width: 100%;  
+	 position:fixed;
+	top:500px;
+	font-size:20px;
+	font-weight:600;
+	 background-color:black;
+	  mix-blend-mode: overlay;
+	}
 
+	.t{
+	 animation-name:t;
+	
+  animation-duration:5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+	 
+}
+
+.m{
+
+ animation-name:m;
+	text-align:right;
+  animation-duration:2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.p{
+ animation-name:p;
+	text-align:center;
+  animation-duration:4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+
+}
+
+@keyframes t {
+  
+  from {
+   margin-top:-400px;
+  }
+  
+  to {
+   margin-top:200px;
+  }
+  
+  
+}
+
+@keyframes m{
+  
+  from {
+   margin-top:-60px;
+  }
+  
+  to {
+   margin-top:0px;
+  }
+  
+  
+}
+
+@keyframes p{
+  
+  from {
+   margin-top:-300px;
+  }
+  
+  to {
+   margin-top:70px;
+  }
+  
+  
+}
