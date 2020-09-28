@@ -1,4 +1,4 @@
-body {background-color: #B9B9B9}
+body {background-color: white}
 
 
 
@@ -92,7 +92,12 @@ font-weight:900;
 	}
 	/*hover*/
 
-
+.forders{
+    display:block;
+    width:100%;
+    align:center;
+    
+}
 	.forder{
 		position:absolute;
 	}
@@ -124,7 +129,7 @@ font-weight:900;
 
 	}
 	.f6{
-	left: 1200px;
+	left: 1000px;
     top: -520px;
 
 	}
