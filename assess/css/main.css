@@ -91,7 +91,7 @@ font-weight:900;
 }
 
 	.text{
-		color:black;
+		color:blue;
 		font-family:arial;
 		font-weight:600;
 		cursor:pointer;
@@ -110,40 +110,36 @@ font-weight:900;
 	
 	.f1{
 	left: 400px;
-    top: 20px;
+    top: 10px;
 
 	}
 
 	.f2{
 	left: 200px;
-    top:20px;
+    top:10px;
 
 	}
 	.f3{
 	left: 400px;
-    top:20px;
+    top:10px;
 
 	}
 	.f4{
 	left: 200px;
-    top:20px;
+    top:10px;
 
 	}
 	.f5{
 	left: 400px;
-    top: 20px;
+    top: 10px;
 
 	}
 	.f6{
-	left: 1000px;
-    top: -520px;
+	left: 1200px;
+    top: -600px;
 
 	}
-	.f7{
-	left: 500px;
-    top:-20px;
-
-	}
+	
 
 
 .forder{
@@ -210,21 +206,16 @@ margin-top:10px;
 	border:5px solid gray; 
            
 	
-	background-color:black; 
+	background-color:blue; 
 	justify-content: space-around;
 
 }
-.topi{
-flex:0 0 33.33%;
-font-family:arial;
-font-weight:800;
-color:white;
-}
+
 .close{
-	margin-right:0px;
-	font-size:30px;
+
+font-size:30px;
 cursor:pointer;
-	text-align:right;
+
 	font-family:arial;
 font-weight:800;
 color:white;
@@ -333,13 +324,14 @@ margin-top:-800px;
 .yupp.show{
 	margin-top:-700px;
 		display:block;
-		height:400px;
-		width:500px;
+		height:500px;
+		width:600px;
 		margin-left:800px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;    
 	cursor:move;
-	background-color:white; 
+	background-color:white;
+    overflow-y:scroll;
 }
 
 .new{
@@ -388,18 +380,18 @@ margin-top:-800px;
 
 
 a:link { 
-font-size: 45px; 
-color:white; 
+font-size: 14px; 
+color:blue; 
 text-decoration: none; 
  transition:0.5s;
 } 
 a:visited { 
-font-size: 45px; 
-color: white; 
+font-size: 14px; 
+color: blue; 
 text-decoration: none; 
 } 
 a:hover { 
-font-size: 50px; 
+font-size: 18px; 
 color: #364872; 
  transition:0.5s;
 
