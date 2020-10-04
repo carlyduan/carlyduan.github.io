@@ -8,6 +8,13 @@ body {background-color: #D2E9FF}
     
 }
 
+.boxo{
+    align-content:center;
+    display:block;
+    
+}
+
+
 .heading{
 	position:fixed;
 	text-align:right;
@@ -36,6 +43,7 @@ font-weight:900;
   
 }
 
+/*
 	.img1{
 		
 		width:10px;
@@ -45,20 +53,27 @@ font-weight:900;
 
   	
 	}
+*/
 
 	video{  
            
-          
+        max-width:80%;
+     margin:20px 100px;
+        
+/*
            margin-top:-40px;
            margin-left:-5px;
            border:5px solid black; 
            
          min-width: 100%;  
           min-height:100%;  
+*/
+/*
             height: auto;  
             width: auto; 
-          align-self:center;
+*/
 
+        
         }
 	
 	
@@ -75,6 +90,7 @@ font-weight:900;
           
 
 	}
+/*
 	.start{
 		position:fixed;
 		bottom:-50px;
@@ -89,23 +105,26 @@ font-weight:900;
 	transition:1s;
 
 }
+*/
 
 	.text{
 		color:blue;
 		font-family:arial;
 		font-weight:600;
 		cursor:pointer;
+        
 	}
 	/*hover*/
 
 .forders{
     display:block;
-    width:100%;
+   width:50%;
     align:center;
     
 }
 	.forder{
 		position:absolute;
+/*        margin:auto;*/
 	}
 	
 	.f1{
@@ -125,12 +144,12 @@ font-weight:900;
 
 	}
 	.f4{
-	left: 200px;
+	left: 190px;
     top:10px;
 
 	}
 	.f5{
-	left: 400px;
+	left: 370px;
     top: 10px;
 
 	}
@@ -203,12 +222,18 @@ margin-top:10px;
 .top{
 
 	display:flex;
-	border:5px solid gray; 
+/*	border:5px solid gray; */
            
 	
 	background-color:blue; 
 	justify-content: space-around;
 
+}
+.topi{
+    color:white;
+    font-size:18px;
+    font-weight:800;
+    margin-top:15px;
 }
 
 .close{
@@ -227,23 +252,33 @@ color:white;
 	font-family:arial;
 	font-weight:600;
 	color:#261D60;
+              margin:20px auto;
+/*
 margin-left:10px;
 margin-right:10px;
+*/
+    align-content:center;
 margin-top:20px;
+}
+
+.juzhong{
+    
+    
 }
 .poll1{
 	display:none;
 	position:fixed;
-		
+	 
 	
 }
 .poll1.show{
 	display:block;
-	margin-top:-800px;
+	margin-top:-700px;
 	position:fixed;
-		height:400px;
-		width:500px;
-		margin-left:1300px;
+    overflow-y:scroll;
+		height:500px;
+		width:1000px;
+		margin-left:300px;
 		border:5px solid yellow; 
          cursor:move;
 	box-shadow:10px 10px 10px gray;
@@ -258,11 +293,12 @@ position:fixed;
 
 }
 .oj.show{
+    overflow-y:scroll;
 	display:block;
 		margin-top:-700px;
-		height:400px;
-		width:500px;
-		margin-left:1200px;
+		height:500px;
+		width:1000px;
+		margin-left:300px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;   
 	cursor:move;
@@ -275,58 +311,66 @@ position:fixed;
 }
 
 .poll3.show{
-margin-top:-800px;
+    overflow-y:scroll;
+margin-top:-700px;
 		display:block;
-		height:400px;
-		width:500px;
-		margin-left:1100px;
+		height:500px;
+		width:1000px;
+		margin-left:300px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;  
 	cursor:move;
 	background-color:white; 
 }
+/*visual*/
 
 .psy{
 	position:fixed;
 		display:none;
 }
 .psy.show{
+    overflow-y:scroll;
 	margin-top:-700px;
 		display:block;
-		height:400px;
-		width:500px;
-		margin-left:1000px;
+		height:500px;
+		width:1000px;
+		margin-left:200px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;   
 	cursor:move;
 	background-color:white; 
 }
+/*explain video*/
 
 .poll4{
 	position:fixed;
 		display:none;
 }
 .poll4.show{
-	margin-top:-800px;
+    overflow-y:scroll;
+	margin-top:-700px;
 		display:block;
-		height:400px;
-		width:500px;
-		margin-left:900px;
-		border:5px solid yellow; 
+		height:500px;
+		width:1000px;
+		margin-left:300px;
+    
+        border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;  
 	cursor:move;
 	background-color:white; 
 }
+/*about me*/
 .yupp{
 	position:fixed;
 	display:none;	
 }
 .yupp.show{
+    overflow-y:scroll;
 	margin-top:-700px;
 		display:block;
 		height:500px;
-		width:600px;
-		margin-left:800px;
+		width:1000px;
+		margin-left:200px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;    
 	cursor:move;
@@ -334,22 +378,9 @@ margin-top:-800px;
     overflow-y:scroll;
 }
 
-.new{
-	position:fixed;
-		display:none;
-}
-.new.show{
-	margin-top:-800px;
-		display:block;
-		height:400px;
-		width:500px;
-		margin-left:700px;
-		border:5px solid yellow; 
-      box-shadow:10px 10px 10px gray;   
-	cursor:move;
-	background-color:white; 
-}
 
+
+/*
 .manu{
 	display:block;
 	height:400px;
@@ -368,6 +399,7 @@ margin-top:-800px;
 	bottom:0px;
 	transition: 0.2s;
 }
+*/
 
 .sellet{
 	font-family:arial;
@@ -379,6 +411,7 @@ margin-top:-800px;
 }
 
 
+/*
 a:link { 
 font-size: 14px; 
 color:blue; 
@@ -396,84 +429,12 @@ color: #364872;
  transition:0.5s;
 
 } 
+*/
 
-.line{
-	display:block;
-	max-height:3px;
-	 min-width: 100%;  
-	 position:fixed;
-	top:500px;
-	font-size:20px;
-	font-weight:600;
-	 background-color:black;
-	  mix-blend-mode: overlay;
-	}
 
-	.t{
-	 animation-name:t;
-	
-  animation-duration:5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-	 
-}
 
-.m{
 
- animation-name:m;
-	text-align:right;
-  animation-duration:2000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
 
-.p{
- animation-name:p;
-	text-align:center;
-  animation-duration:4000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
+  
+  
 
-}
-
-@keyframes t {
-  
-  from {
-   margin-top:-400px;
-  }
-  
-  to {
-   margin-top:200px;
-  }
-  
-  
-}
-
-@keyframes m{
-  
-  from {
-   margin-top:-60px;
-  }
-  
-  to {
-   margin-top:0px;
-  }
-  
-  
-}
-
-@keyframes p{
-  
-  from {
-   margin-top:-300px;
-  }
-  
-  to {
-   margin-top:70px;
-  }
-  
-  
-}
