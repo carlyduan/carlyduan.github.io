@@ -1,6 +1,6 @@
 body {
     margin:0 auto;
-    width:1500px;
+    width:1200px;
     height:700px;
     font-family:Arial;
     background-color: #BCF7F5
@@ -17,7 +17,7 @@ h2{
       background-position: center center;
     position:absolute;
     
-    margin:-70px 400px;
+    margin:-70px 320px;
   
     display:block;
    
@@ -176,7 +176,7 @@ h2{
 	
 	.f1{
         top:450px;
-	left: 300px;
+	left: 240px;
 
 
 	}
@@ -187,7 +187,7 @@ h2{
 	}
 
 	.f2{
-	left: 500px;
+	left: 400px;
    top:425px;
 
 	}
@@ -197,7 +197,7 @@ h2{
 		transition:0.5s;
 	}
 	.f3{
-	left: 850px;
+	left: 680px;
    top:275px;
 
 	}
@@ -206,7 +206,7 @@ h2{
     transition:0.5s;
 }
 	.f4{
-	left: 1050px;
+	left: 840px;
     top:50px;
 
 	}
@@ -215,7 +215,7 @@ h2{
     transition:0.5s;
 }
 	.f5{
-	left: 1250px;
+	left: 1000px;
    top:30px;
 
 	}
@@ -224,7 +224,7 @@ h2{
     transition:0.5s;
 }
 	.f6{
-	left: 100px;
+	left: 80px;
    top:-95px;
 
 	}
