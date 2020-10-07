@@ -1,8 +1,8 @@
 $( document ).ready(function() {
     
- $( function() {
-    $( ".forder").draggable();
-  } );
+// $( function() {
+//    $( ".forder").draggable();
+//  } );
 
  $( function() {
     $( ".pop").draggable();

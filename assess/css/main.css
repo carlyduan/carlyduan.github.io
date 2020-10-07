@@ -1,17 +1,61 @@
 body {
     margin:0 auto;
     width:1500px;
-    height:200px;
-    background-color: #D2E9FF}
+    height:700px;
+    
+    background-color: #BCF7F5
+}
+h2{
+    position:fixed;
+    color:blue;
+   margin:auto;
+    
+}
 
 
 .jpg2{
       background-position: center center;
-    position:fixed;
-    margin-top:-30px;
-    margin-left:500px;
+    position:absolute;
+    
+    margin:-70px 400px;
+  
+    display:block;
+   
+    
+    
     
 }
+.bg2{
+    position:absolute;
+    z-index:-1;
+    
+}
+
+.cloud{
+   
+ position:absolute;
+     z-index:0;
+    margin-top:260px;
+    margin-left:40px;
+    animation-name:spinUG;
+  animation-duration:2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.cloud1{
+   
+ position:absolute;
+     z-index:0;
+    margin-top:260px;
+    margin-left:450px;
+  animation-name:spinUG;
+  animation-duration:2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
 
 .boxo{
     align-content:center;
@@ -20,29 +64,16 @@ body {
 }
 
 
-.heading{
-	position:fixed;
-	text-align:right;
-	top:300px;
-	right:400px;
-font-weight:900;
-		font-size:60px;
-		width:700px;
-	animation-name:spinUG;
-  animation-duration:2000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-	}
+
 
 @keyframes spinUG {
   
   from {
-    width:700px;
+   margin-top:260px;
   }
   
   to {
-    width:300px;
+   margin-top:230px;
   }
   
   
@@ -63,7 +94,7 @@ font-weight:900;
 	video{  
            
         max-width:80%;
-     margin:20px 100px;
+     margin:40px 100px;
         
 /*
            margin-top:-40px;
@@ -114,61 +145,99 @@ font-weight:900;
 
 	.text{
 		color:blue;
-		font-family:arial;
+		
 		font-weight:600;
 		cursor:pointer;
         
 	}
+
 	/*hover*/
 
 .forders{
+ text-align:center;
     display:block;
-   width:50%;
-    align:center;
+    height:600px;
+  
+   
+  
+   
+  
+    
+    
     
 }
 	.forder{
+        
 		position:absolute;
+         width:150px;
 /*        margin:auto;*/
+       
 	}
 	
 	.f1{
-	left: 400px;
-    top: 10px;
+        top:450px;
+	left: 300px;
 
+
+	}
+.f1:hover{
+		
+		top:470px;
+		transition:0.5s;
 	}
 
 	.f2{
-	left: 200px;
-    top:10px;
+	left: 500px;
+   top:425px;
 
+	}
+.f2:hover{
+		
+		top:405px;
+		transition:0.5s;
 	}
 	.f3{
-	left: 400px;
-    top:10px;
+	left: 850px;
+   top:275px;
 
 	}
+.f3:hover{
+    top:295px;
+    transition:0.5s;
+}
 	.f4{
-	left: 190px;
-    top:10px;
+	left: 1050px;
+    top:50px;
 
 	}
+.f4:hover{
+    top:30px;
+    transition:0.5s;
+}
 	.f5{
-	left: 370px;
-    top: 10px;
+	left: 1250px;
+   top:30px;
 
 	}
+.f5:hover{
+    top:50px;
+    transition:0.5s;
+}
 	.f6{
-	left: 1200px;
-    top: -600px;
+	left: 100px;
+   top:-95px;
 
 	}
+.f6:hover{
+    top:-105px;
+    transition:0.5s;
+}
 	
 
 
 .forder{
 	position: relative;
-	cursor: move;
+	cursor: pointer;
 }
 
 .infotext{
@@ -227,6 +296,8 @@ margin-top:10px;
 .top{
 
 	display:flex;
+    width:1000px;
+    position:fixed;
 /*	border:5px solid gray; */
            
 	
@@ -279,7 +350,7 @@ margin-top:20px;
 }
 .poll1.show{
 	display:block;
-	margin-top:-700px;
+	margin-top:-500px;
 	position:fixed;
     overflow-y:scroll;
 		height:500px;
@@ -301,7 +372,7 @@ position:fixed;
 .oj.show{
     overflow-y:scroll;
 	display:block;
-		margin-top:-700px;
+		margin-top:-500px;
 		height:500px;
 		width:1000px;
 		margin-left:300px;
@@ -318,7 +389,7 @@ position:fixed;
 
 .poll3.show{
     overflow-y:scroll;
-margin-top:-700px;
+margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
@@ -336,7 +407,7 @@ margin-top:-700px;
 }
 .psy.show{
     overflow-y:scroll;
-	margin-top:-700px;
+	margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
@@ -354,7 +425,7 @@ margin-top:-700px;
 }
 .poll4.show{
     overflow-y:scroll;
-	margin-top:-700px;
+	margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
@@ -372,7 +443,7 @@ margin-top:-700px;
 }
 .yupp.show{
     overflow-y:scroll;
-	margin-top:-700px;
+	margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
