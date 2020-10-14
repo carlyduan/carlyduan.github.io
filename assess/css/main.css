@@ -1,7 +1,9 @@
 body {
-    margin:0 auto;
+    margin:auto;
+
     width:1200px;
     height:700px;
+
     font-family:Arial;
     background-color: #BCF7F5
 }
@@ -9,6 +11,7 @@ h2{
     position:fixed;
     color:blue;
    margin:auto;
+    cursor:pointer;
     
 }
 
@@ -93,8 +96,8 @@ h2{
 
 	video{  
            
-        max-width:80%;
-     margin:40px 100px;
+        max-width:800px;
+     margin:50px 100px;
         
 /*
            margin-top:-40px;
@@ -307,7 +310,7 @@ margin-top:10px;
 }
 .topi{
     color:white;
-    font-size:18px;
+    font-size:24px;
     font-weight:800;
     margin-top:15px;
     font-family:arial;
@@ -315,9 +318,9 @@ margin-top:10px;
 
 .close{
 
-font-size:30px;
+font-size:24px;
 cursor:pointer;
-
+ margin-top:15px;
 	font-family:arial;
 font-weight:800;
 color:white;
@@ -328,20 +331,18 @@ color:white;
 .content{
 	font-family:arial;
 	font-weight:600;
-	color:#261D60;
-              margin:20px auto;
+	
+   
+             
 /*
 margin-left:10px;
 margin-right:10px;
 */
     align-content:center;
-margin-top:20px;
+
 }
 
-.juzhong{
-    
-    
-}
+
 .poll1{
 	display:none;
 	position:fixed;
@@ -355,7 +356,7 @@ margin-top:20px;
     overflow-y:scroll;
 		height:500px;
 		width:1000px;
-		margin-left:300px;
+		margin-left:100px;
 		border:5px solid yellow; 
          cursor:move;
 	box-shadow:10px 10px 10px gray;
@@ -375,7 +376,7 @@ position:fixed;
 		margin-top:-500px;
 		height:500px;
 		width:1000px;
-		margin-left:300px;
+		margin-left:100px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;   
 	cursor:move;
@@ -393,7 +394,7 @@ margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
-		margin-left:300px;
+		margin-left:100px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;  
 	cursor:move;
@@ -411,7 +412,7 @@ margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
-		margin-left:200px;
+		margin-left:100px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;   
 	cursor:move;
@@ -429,7 +430,7 @@ margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
-		margin-left:300px;
+		margin-left:100px;
     
         border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;  
@@ -447,7 +448,7 @@ margin-top:-500px;
 		display:block;
 		height:500px;
 		width:1000px;
-		margin-left:200px;
+		margin-left:100px;
 		border:5px solid yellow; 
       box-shadow:10px 10px 10px gray;    
 	cursor:move;
@@ -455,6 +456,40 @@ margin-top:-500px;
     overflow-y:scroll;
 }
 
+/*pop1 */
+
+.new{
+
+	position:fixed;
+		display:none;
+    overflow-y:scroll;
+	margin-top:-500px;
+		display:block;
+		height:500px;
+		width:1000px;
+		margin-left:100px;
+		border:5px solid yellow; 
+      box-shadow:10px 10px 10px gray;    
+	cursor:move;
+	background-color:white;
+    
+    
+}
+.new.show{
+    position:fixed;
+		display:none;
+/*
+	margin-top:-800px;
+		display:block;
+		height:400px;
+		width:500px;
+		margin-left:700px;
+		border:5px solid yellow; 
+      box-shadow:10px 10px 10px gray;   
+	cursor:move;
+	background-color:white; 
+*/
+}
 
 
 /*

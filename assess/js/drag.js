@@ -69,11 +69,11 @@ $('.close6').click(function() {
   $('.yupp').removeClass('show');
 });
 //yupp
-$('.f7').click(function() {
+$('.close7').click(function() {
   $('.new').addClass('show');
 });
 
-$('.close7').click(function() {
+$('h2').click(function() {
   $('.new').removeClass('show');
 });
 
