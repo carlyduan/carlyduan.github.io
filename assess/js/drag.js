@@ -73,9 +73,9 @@ $('.close7').click(function() {
   $('.new').addClass('show');
 });
 
-$('h2').click(function() {
-  $('.new').removeClass('show');
-});
+//$('h2').click(function() {
+//  $('.new').removeClass('show');
+//});
 
  });
 
