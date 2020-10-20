@@ -61,11 +61,11 @@ $('.close5').click(function() {
 });
 //poll4
 
-$('.f6').click(function() {
+$('.close6').click(function() {
   $('.yupp').addClass('show');
 });
 
-$('.close6').click(function() {
+$('.f6').click(function() {
   $('.yupp').removeClass('show');
 });
 //yupp
